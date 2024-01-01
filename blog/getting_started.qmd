@@ -1,0 +1,46 @@
+---
+title: "Getting Started"
+---
+
+# Recommendations for new users
+
+[sciences.social](https://sciences.social) is built on Mastodon, one of the 
+biggest platforms in the "fediverse". After you sign in you'll have accesss to 
+the Mastodon web interface, but for the best experience you'll probably want to
+get an App for your mobile device and you'll definitely want to find
+some people to follow since there are  no algorithms that shape what you see. 
+
+## 1. Follow lots of folks
+
+Thousands of social scientists are active in the fediverse, and you can follow anyone regardless of which server they call home. There's no algorithm to fill your feed with content so it helps to follow liberally. Our companion site **[find.sciences.social](https://find.sciences.social)** makes it easy to find and follow academics from many different disciplines including [Sociology](https://find.sciences.social/search?field=sociology), [Communication and Media Studies](https://find.sciences.social/search?q=&field=communication-and-media-studies), and [Political Science](https://find.sciences.social/search?q=&field=political-scientists). Try the [Mammoth](https://getmammoth.app) app 
+for tools to fill out your feed and "Smart Lists of topics to follow." [Followgraph](https://followgraph.vercel.app/) finds folks who are popular among the people you already follow.
+
+You can also follow hashtags like [#sociology](https://sciences.social/tags/sociology) to see what people are posting about the topic. Or follow [#rstats](https://sciences.social/tags/rstats) for hints on R and [#AcademicChatter](https://sciences.social/tags/academicchatter) for - you know. Or maybe just [#NaturePhotography](https://sciences.social/tags/naturephotography) for some pleasant views.
+
+## 2. Get an app
+
+You can use the standard Mastodon app for [iOS](https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974) and [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android) with sciences.social,
+but sciences.social can also be accessed with these options, which many people prefer.    
+
+#### Web
+[Phanpy](https://phanpy.social) is a smooth, attractive, and innovative web-based UI you can use on your phone. Graze ([chrome](https://chrome.google.com/webstore/detail/graze-for-mastodon/epocinhmkcnjfjobnglchpbncndobblj), [mozilla](https://addons.mozilla.org/en-US/firefox/addon/graze/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)) fixes a Mastodon frustration by allowing 
+you to boost posts and follow users when you visit any Mastodon site. Highly recommended. 
+
+#### iOS
+
+- **[Ice Cubes](https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884)**
+A fast and free app. Requires iOS 17
+- **[Mammoth](https://getmammoth.app)**
+An innovative app with "Smart Lists" and recommendations about who to follow
+- **[Ivory](https://apps.apple.com/us/app/ivory-for-mastodon-by-tapbots/id6444602274)**
+A smooth, paid app from the makers of TweetDeck
+- **[Mona](https://apps.apple.com/us/app/mona-for-mastodon/id1659154653)**
+Another polished app, with lots of customization options
+
+#### Android
+- **[Tusky for Android](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)** A favorite of many Android users
+
+## 3. Start Posting and Boosting
+
+Introduce yourself with your first post, and include an [#introduction](/tags/introduction) hashtag. Post about whatever you want, and use hashtags to make finding your posts easier. If you see a post you like, boost it. There's no algorithm to amplify selected voices here so we rely on boosting to see what's interesting.
+

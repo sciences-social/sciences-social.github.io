@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+*sciences.social* welcomes all social scientists, including professors, grad students and anyone with a graduate degree in the social sciences (sociology, anthropology, political science, communications, economics...), including people who are doing qualitative and quantitative work inside or outside academia. We want this to be a comfortable place for social scientists from all backgrounds, including those who are from marginalized or racialized groups, sexual minorities, people with disabilities and others who may not feel welcomed in some academic spaces.
+
+*sciences.social* is collectively funded. It was started by [Mark Igra](http://www.markigra.com/) ([\@markigra](https://sciences.social/@markigra)), a PhD student who earned enough money to start the site in a previous career. While Mark will continue to ensure sciences.social is funded, donations have helped pay for the rapid growth of the site. **We encourage you to donate** through our [Open Collective fundraising page](https://opencollective.com/sciences-social), which shows all of our spending. Donations through that page are tax deductible for U.S. taxpayers thanks to fiscal hosting from the [Open Collective Foundation](https://opencollective.com).
+
+Mark runs this site with the help of a crew of moderators ([Pratik](https://sciences.social/@pratik), [Kristian](https://sciences.social/@koerselman), [Simon](https://sciences.social/@simonlindgren), with valuable advice from from a variety of folks around the fediverse.
+
+Sciences.social is hosted by [masto.host](https://masto.host) . For updates on system status see our [admin messages](https://mastodon.social/@sciences_social_admin) or [messages from masto.host](https://mastodon.social/@mastohost) on mastodon.social.

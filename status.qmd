@@ -1,0 +1,80 @@
+---
+title: "sciences.social server status"
+toc: false
+
+format:
+  html:
+    grid: 
+      margin-width: 400px
+      body-width: 600px
+    resources: [mastodon-timeline.*, activity_plot.js]
+
+---
+
+::: {.column-margin}
+<link rel="stylesheet" href="mastodon-timeline.css" />
+**Recent posts from admins:**
+
+<div id="mt-error">
+</div>
+<div class="mt-timeline"><div id="mt-body" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
+<script src="mastodon-timeline.js"></script>
+
+**Recent posts from masto.host**
+<div class="mt-timeline"><div id="mt-masto" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
+<script>
+window.addEventListener("load", () => {
+
+  const adminTimeline = new MastodonApi({
+    container_body_id: "mt-body",
+    error_elem_id: "mt-error",
+    spinner_class: "loading-spinner",
+    default_theme: "auto",
+    instance_url: "https://mastodon.social",
+    timeline_type: "profile",
+    user_id: "111203165606723779",
+    profile_name: "sciences_social_admin",
+    hashtag_name: "",
+    toots_limit: "3",
+    hide_unlisted: true,
+    hide_reblog: false,
+    hide_replies: false,
+    hide_preview_link: false,
+    markdown_blockquote: false,
+    hide_counter_bar: true,
+    text_max_lines: "0",
+    link_see_more: "See more",
+  });
+
+  const mastoTimeline = new MastodonApi({
+    container_body_id: "mt-masto",
+    error_elem_id: "mt-error",
+    spinner_class: "loading-spinner",
+    default_theme: "auto",
+    instance_url: "https://mastodon.social",
+    timeline_type: "profile",
+    user_id: "317637",
+    profile_name: "mastohost",
+    hashtag_name: "",
+    toots_limit: "25",
+    hide_unlisted: true,
+    hide_reblog: false,
+    hide_replies: true,
+    hide_preview_link: false,
+    hide_emojos: false,
+    markdown_blockquote: false,
+    hide_counter_bar: true,
+    text_max_lines: "0",
+    link_see_more: "See more",
+  });
+});
+</script>
+:::
+
+**sciences.social** is hosted at [masto.host](https://masto.host), a cost-effective and reliable hosting
+service for Mastodon. Still, sometimes things go wrong, and when they do we can't use sciences.social to
+communicate with you. In that case, we'll post status information on  [@sciences_social_admin@mastodon.social](https://mastodon.social/@sciences_social_admin) account, and you should
+see recent messages on this page. Messages from masto.host are also here.
+
+Masto host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
+was running on app server 15 and database server 19, but that could change.

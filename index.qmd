@@ -1,0 +1,45 @@
+---
+title: "sciences.social"
+toc: false
+
+format:
+  html:
+    grid: 
+      margin-width: 400px
+      body-width: 600px
+    resources: [mastodon-timeline.*]
+
+---
+
+
+**sciences.social** is an online community for *social scientists*, including
+sociologists, economists, political scientists, communication scholars and others. 
+Users here can  connect with one another and the millions of other people who use the open social web, 
+also known as the "fediverse." 
+
+**sciences.social is ad-free, tracking-free, and actively moderated to keep bad actors at bay.**
+
+[Create an Account](https://sciences.social/auth/sign_up){target="_blank" class="btn btn-primary"} [Go to the Web App](https://sciences.social){class="btn btn-primary"}
+
+## Find social scientists with **[find.sciences.social](https://find.sciences.social)** 
+
+Our companion site **[find.sciences.social](https://find.sciences.social)** makes it easy for any Mastodon user to find and follow academics from many different disciplines including [Sociology](https://find.sciences.social/search?field=sociology), [Communication and Media Studies](https://find.sciences.social/search?q=&field=communication-and-media-studies), and [Political Science](https://find.sciences.social/search?q=&field=political-scientists).
+
+## Donate to support us
+
+We are a non-profit organization run by unpaid volunteers - namely
+[Mark Igra](https://sciences.social/@markigra), who founded the site,
+[Pratik Mhatre](https://sciences.social/deck/@Pratik),
+[Kristian Koerselman](https://sciences.social/deck/@economistatwork) and 
+[Simon Lindgren](https://sciences.social/deck/@simonlindgren). Still
+running the site costs money (about $150/month and rising) and we rely on donations to
+foot the bill. We accept U.S. tax-deductible donations through
+the [Open Collective Foundation](https://opencollective.com/sciences-social).
+
+
+<a href="https://opencollective.com/sciences-social/donate" target="_blank">
+  <img src="https://opencollective.com/sciences-social/donate/button@2x.png?color=blue" width=300 />
+</a>
+
+
+
