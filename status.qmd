@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
     hashtag_name: "",
     toots_limit: "25",
     hide_unlisted: true,
-    hide_reblog: false,
+    hide_reblog: true,
     hide_replies: true,
     hide_preview_link: false,
     hide_emojos: false,
