@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "sciences.social",
+    "section": "",
+    "text": "sciences.social is an online community for social scientists, including sociologists, economists, political scientists, communication scholars and others. Users here can connect with one another and the millions of other people who use the open social web, also known as the “fediverse.”\nsciences.social is ad-free, tracking-free, and actively moderated to keep bad actors at bay.\nCreate an Account Go to the Web App"
+  },
+  {
+    "objectID": "index.html#find-social-scientists-with-find.sciences.social",
+    "href": "index.html#find-social-scientists-with-find.sciences.social",
+    "title": "sciences.social",
+    "section": "Find social scientists with find.sciences.social",
+    "text": "Find social scientists with find.sciences.social\nOur companion site find.sciences.social makes it easy for any Mastodon user to find and follow academics from many different disciplines including Sociology, Communication and Media Studies, and Political Science."
+  },
+  {
+    "objectID": "index.html#donate-to-support-us",
+    "href": "index.html#donate-to-support-us",
+    "title": "sciences.social",
+    "section": "Donate to support us",
+    "text": "Donate to support us\nWe are a non-profit organization run by unpaid volunteers - namely Mark Igra, who founded the site, Pratik Mhatre, Kristian Koerselman and Simon Lindgren. Still running the site costs money (about $150/month and rising) and we rely on donations to foot the bill. We accept U.S. tax-deductible donations through the Open Collective Foundation."
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "Policies\nAt the moment, the official rules are deliberately minimal, but they have important implications. First, if you don’t understand that “treat people with respect” means no sexism, racism, homophobia, transphobia or casteism and precludes abusive behavior and doxxing, then you don’t belong on this site. Second, you must use your real name in your profile and we strongly encourage using your full name as your display name. While there are plenty of good reasons for anonymity on the internet, for our purposes being able to link online reputation to real-world reputation is important.\n\n\nPost Visibility\nPublic posts appear on the local timelines and federated timelines of sciences.social and all other mastodon instances that host your followers. Consider using Unlisted for posts you want your followers to see, but would prefer not to appear in public timelines. Using Unlisted for replies is strongly encouraged.\nPosts expressing racism, homophobia and the like are not allowed with or without a content warning or with any level of visibility.\n\n\nSensitive Media\nYou must mark media as sensitive if it contains violence or sexual content. We also request that you mark media as sensitive if it might trigger common phobias including arachnophobia (fear of spiders) and Ophidiophobia (fear of snakes).\n\n\nGetting along\nFolks come here from different academic, ethnic and national cultures, so there are likely to be some mismatches in tone when we talk to one another. People might be more blunt than you are used to, or you might think someone is frustratingly obtuse when they are just trying to be polite. It’s best to presume that folks here are acting in good faith. Mastodon has good tools for filtering or blocking posts you don’t want to see. However, if you think someone is deliberately violating the rules or negatively affecting the community as a whole, you can report them as described below.\n\n\nReporting bad behavior\nOne of the great strengths of Mastodon is the ability to restrict access to bad actors. sciences.social already blocks posts from dozens of sites known to host trolls and nazis, but there’ll be other bad behavior. If you use the “Report” action on someone’s post the moderators can review it and take action to restrict that account. Reporting helps even for people who make their home on other servers.\n\n\nContent Warnings\nContent warnings are an important part of both the technical infrastructure and the culture of the Mastodon online community. They aren’t just used for “triggering” content but also are often treated as a “headline” that allows people to choose whether they want to read the whole post. Click the CW link on your post to set one.\nWe strongly encourage the use of content warnings for posts that you think might be triggering or of limited interest, for example mentions of death or violence, and political debates centered on one country or locality.\nWhile expressions of racism, casteism, homophobia, and transphobia are off-limits, we do not require content warnings for posts about those topics and their effects on people, whether academic or otherwise. Use your own judgment about using content warnings on these topics."
+  },
+  {
+    "objectID": "blog/getting_started.html",
+    "href": "blog/getting_started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "sciences.social is built on Mastodon, one of the biggest platforms in the “fediverse”. After you sign in you’ll have accesss to the Mastodon web interface, but for the best experience you’ll probably want to get an App for your mobile device and you’ll definitely want to find some people to follow since there are no algorithms that shape what you see.\n\n\nThousands of social scientists are active in the fediverse, and you can follow anyone regardless of which server they call home. There’s no algorithm to fill your feed with content so it helps to follow liberally. Our companion site find.sciences.social makes it easy to find and follow academics from many different disciplines including Sociology, Communication and Media Studies, and Political Science. Try the Mammoth app for tools to fill out your feed and “Smart Lists of topics to follow.” Followgraph finds folks who are popular among the people you already follow.\nYou can also follow hashtags like #sociology to see what people are posting about the topic. Or follow #rstats for hints on R and #AcademicChatter for - you know. Or maybe just #NaturePhotography for some pleasant views.\n\n\n\nYou can use the standard Mastodon app for iOS and Android with sciences.social, but sciences.social can also be accessed with these options, which many people prefer.\n\n\nPhanpy is a smooth, attractive, and innovative web-based UI you can use on your phone. Graze (chrome, mozilla) fixes a Mastodon frustration by allowing you to boost posts and follow users when you visit any Mastodon site. Highly recommended.\n\n\n\n\nIce Cubes A fast and free app. Requires iOS 17\nMammoth An innovative app with “Smart Lists” and recommendations about who to follow\nIvory A smooth, paid app from the makers of TweetDeck\nMona Another polished app, with lots of customization options\n\n\n\n\n\nTusky for Android A favorite of many Android users\n\n\n\n\n\nIntroduce yourself with your first post, and include an #introduction hashtag. Post about whatever you want, and use hashtags to make finding your posts easier. If you see a post you like, boost it. There’s no algorithm to amplify selected voices here so we rely on boosting to see what’s interesting."
+  },
+  {
+    "objectID": "blog/getting_started.html#follow-lots-of-folks",
+    "href": "blog/getting_started.html#follow-lots-of-folks",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Thousands of social scientists are active in the fediverse, and you can follow anyone regardless of which server they call home. There’s no algorithm to fill your feed with content so it helps to follow liberally. Our companion site find.sciences.social makes it easy to find and follow academics from many different disciplines including Sociology, Communication and Media Studies, and Political Science. Try the Mammoth app for tools to fill out your feed and “Smart Lists of topics to follow.” Followgraph finds folks who are popular among the people you already follow.\nYou can also follow hashtags like #sociology to see what people are posting about the topic. Or follow #rstats for hints on R and #AcademicChatter for - you know. Or maybe just #NaturePhotography for some pleasant views."
+  },
+  {
+    "objectID": "blog/getting_started.html#get-an-app",
+    "href": "blog/getting_started.html#get-an-app",
+    "title": "Getting Started",
+    "section": "",
+    "text": "You can use the standard Mastodon app for iOS and Android with sciences.social, but sciences.social can also be accessed with these options, which many people prefer.\n\n\nPhanpy is a smooth, attractive, and innovative web-based UI you can use on your phone. Graze (chrome, mozilla) fixes a Mastodon frustration by allowing you to boost posts and follow users when you visit any Mastodon site. Highly recommended.\n\n\n\n\nIce Cubes A fast and free app. Requires iOS 17\nMammoth An innovative app with “Smart Lists” and recommendations about who to follow\nIvory A smooth, paid app from the makers of TweetDeck\nMona Another polished app, with lots of customization options\n\n\n\n\n\nTusky for Android A favorite of many Android users"
+  },
+  {
+    "objectID": "blog/getting_started.html#start-posting-and-boosting",
+    "href": "blog/getting_started.html#start-posting-and-boosting",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Introduce yourself with your first post, and include an #introduction hashtag. Post about whatever you want, and use hashtags to make finding your posts easier. If you see a post you like, boost it. There’s no algorithm to amplify selected voices here so we rely on boosting to see what’s interesting."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "sciences.social welcomes all social scientists, including professors, grad students and anyone with a graduate degree in the social sciences (sociology, anthropology, political science, communications, economics…), including people who are doing qualitative and quantitative work inside or outside academia. We want this to be a comfortable place for social scientists from all backgrounds, including those who are from marginalized or racialized groups, sexual minorities, people with disabilities and others who may not feel welcomed in some academic spaces.\nsciences.social is collectively funded. It was started by Mark Igra (@markigra), a PhD student who earned enough money to start the site in a previous career. While Mark will continue to ensure sciences.social is funded, donations have helped pay for the rapid growth of the site. We encourage you to donate through our Open Collective fundraising page, which shows all of our spending. Donations through that page are tax deductible for U.S. taxpayers thanks to fiscal hosting from the Open Collective Foundation.\nMark runs this site with the help of a crew of moderators (Pratik, Kristian, Simon, with valuable advice from from a variety of folks around the fediverse.\nSciences.social is hosted by masto.host . For updates on system status see our admin messages or messages from masto.host on mastodon.social."
+  },
+  {
+    "objectID": "status.html",
+    "href": "status.html",
+    "title": "sciences.social server status",
+    "section": "",
+    "text": "Recent posts from admins:\n\n\n\n\n\n\n\n\n\n\n\nRecent posts from masto.host\n\n\n\n\n\n\n\n\nsciences.social is hosted at masto.host, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. In that case, we’ll post status information on @sciences_social_admin@mastodon.social account, and you should see recent messages on this page. Messages from masto.host are also here.\nMasto host has a public page listing hardware status of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change."
+  }
+]
