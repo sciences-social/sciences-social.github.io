@@ -88,9 +88,7 @@ MastodonApi.prototype.buildTimeline = async function () {
   if (this.mtBodyContainer.innerHTML === "") {
     this.mtBodyContainer.setAttribute("role", "none");
     this.mtBodyContainer.innerHTML =
-      '<div class="mt-error"><span class="mt-error-icon">📭</span><br/><strong>Sorry, no toots to show</strong><br/><div class="mt-error-message">Got ' +
-      this.FETCHED_DATA.timeline.length +
-      ' toots from the server but due to the "hide filters" applied, no toot is shown</div></div>';
+      '<div class="mt-error"><span class="mt-error-icon">📭</span><br/><strong>Sorry, no recent pubilc posts to show</strong></div>';
   } else {
     // Insert link after last toot to visit Mastodon page
     if (this.LINK_SEE_MORE) {
