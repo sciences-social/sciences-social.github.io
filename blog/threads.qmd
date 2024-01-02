@@ -1,33 +1,33 @@
 ---
 title: "Threads"
 author: "Mark Igra"
-date: "2024-01-01"
+date: "2024-01-02"
 description: "We're going to wait and see"
 image: "/assets/threads_logo.png"
 ---
 
 Threads, from Meta, the company behind Facebook and Instagram, is the fastest growing social
 network ever with [tens of millions of active users](https://explodingtopics.com/blog/threads-users). 
-It's also about to become part of the fediverse - making it possible
+It's also about to support the ActivityPub protocol underlying the open Social Web - making it possible
 for folks on Mastodon servers like sciences.social to follow people on Threads and vice-versa. 
 
-Many fediverse denizens have argued that fediverse communities should block Threads since Meta has
+Some folks have argued that responsible online communities should preemptively block Threads since Meta has
 demonstrated [lots](https://www.reuters.com/article/us-myanmar-rohingya-facebook/u-n-investigators-cite-facebook-role-in-myanmar-crisis-idUSKCN1GO2PN/) 
 [of](https://www.theverge.com/2018/4/11/17225482/facebook-shadow-profiles-zuckerberg-congress-data-privacy) 
 [bad](https://www.theguardian.com/technology/2021/apr/12/facebook-fake-engagement-whistleblower-sophie-zhang) 
 [behavior](https://www.amnesty.org/en/latest/news/2023/10/meta-failure-contributed-to-abuses-against-tigray-ethiopia/).
 
 It's not an easy call, but the moderators and I decided a few months ago that we would take a wait
-and see approach to Threads. We'll treat it like other large fediverse instances, blocking
-accounts that interact with our community and violate our rules. If we see too much bad behavior
-by Threads or its users we'll block it. This decision is similar to
+and see approach to Threads. We'll treat it like other large sites, blocking
+accounts that violate our rules and interact with our users. If we see too much bad behavior
+by Threads or its users we'll block the whole site. This decision is similar to
 the one taken by [datascience.social](https://community.datasci.social/blog/2023-12-17/our-stance-on-threads/)
 and [mastodon.social](https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/).
 
 Note that you can block Threads for your personal account if you want. There are
-some instructions at the end of this post from [infosec.exchange](https://blog.infosec.exchange/2023/12/27/threads-and-infosec-exchange/). 
-And if you would like to migrate your account to an instance that pre-emptively
-blocks threads, that's totally understandable too.
+some instructions at the end of this post.
+And if you would like to migrate your Mastodon account to an instance that pre-emptively
+blocks Threads, that's totally understandable too.
 
 ### The argument against federating with Threads
 
@@ -38,26 +38,28 @@ the dominant player in the fediverse, they will be able to dictate standards and
 that make it difficult for others
 
 2. People don't want their posts to be indexed and monetized by Threads, nor do they
-want their data to become part of Threads monetization and AI schemes.
+want their data to become part of Threads advertising and AI schemes.
 
 3. Meta has been a bad actor in the world. We shouldn't doing anything that helps
 them succeed. 
 
 The most compelling argument against federating that I've seen comes from 
-[Erin Kissane](https://erinkissane.com/untangling-threads?ref=upstract.com). It's worth a read. 
+[Erin Kissane](https://erinkissane.com/untangling-threads). It's worth a read. 
 
 ### The argument for federating
 
 There are two main arguments for federating with Threads. 
 
-1. If we want open protocols to succeed, we are going to need corporations with
-deep pockets to build the solutions that are attractive to lots of non-techy people. 
+1. If we want the open Social Web to become a default communications mechanism and truly
+displace X and other proprietary platforms, we are going to need many millions of
+non-techy people to join. That likely means big coroporations are going to need to support them. 
 Very few of us would sign up for a mail server that won't send to gmail addresses, 
 and arguably Threads is to the fediverse as Gmail is to email.
 
 2. There's a lot of people on Threads who we might want to interact with. If you're
 like me you probably don't care what the Kardashians are doing, but there are 
-other newsmakers who have made Threads their current social media home.
+millions of other people on threads, and I
+know that there are some that are looking to connect with scientific content.
 
 People like Mastodon Founder [Eugene Rochko](https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/) and
 Fediverse evangelist [Tim Chambers](https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/) have been making the argument for treating 
@@ -67,14 +69,15 @@ Threads like any other new server.
 
 As a member of a community that is going to federate with Threads, you still can control
 whether you see any posts from Threads and whether Threads receives posts directly
-from you. To block threads
+from you. These steps are illustrated at the bottom of [this post from infosec.exchange](https://blog.infosec.exchange/2023/12/27/threads-and-infosec-exchange/). 
 
 1. Search for threads.net in the web app
 2. Click on any account from there
 3. Use the ... dropdown and choose "Block domain threads.net"
 
 One thing that should be clear is that nothing you put out on the public internet is safe from being
-indexed and searched, by Threads or anyone else. There are rules and conventions 
-that the big search engines follow, but as long as it is technically possible for people to read your posts, 
-without a login, someone is probably doing it.
+indexed and searched by Meta or anyone else. There are rules and conventions 
+that the big search engines say they follow, 
+but as long as it is technically possible for people to read your posts 
+without a login, there's no foolproof protection.
 
