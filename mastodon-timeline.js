@@ -88,7 +88,7 @@ MastodonApi.prototype.buildTimeline = async function () {
   if (this.mtBodyContainer.innerHTML === "") {
     this.mtBodyContainer.setAttribute("role", "none");
     this.mtBodyContainer.innerHTML =
-      '<div class="mt-error"><span class="mt-error-icon">📭</span><br/><strong>Sorry, no recent pubilc posts to show</strong></div>';
+      '<div class="mt-error"><span class="mt-error-icon">📭</span><br/><strong>No recent pubilc posts.</strong></div>';
   } else {
     // Insert link after last toot to visit Mastodon page
     if (this.LINK_SEE_MORE) {
