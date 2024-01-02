@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>sciences.social - Policies</title>
+<title>sciences.social - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -93,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Status</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
+    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -108,25 +141,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#policies" id="toc-policies" class="nav-link active" data-scroll-target="#policies">Policies</a></li>
-  <li><a href="#post-visibility" id="toc-post-visibility" class="nav-link" data-scroll-target="#post-visibility">Post Visibility</a></li>
-  <li><a href="#sensitive-media" id="toc-sensitive-media" class="nav-link" data-scroll-target="#sensitive-media">Sensitive Media</a></li>
-  <li><a href="#getting-along" id="toc-getting-along" class="nav-link" data-scroll-target="#getting-along">Getting along</a></li>
-  <li><a href="#reporting-bad-behavior" id="toc-reporting-bad-behavior" class="nav-link" data-scroll-target="#reporting-bad-behavior">Reporting bad behavior</a></li>
-  <li><a href="#content-warnings" id="toc-content-warnings" class="nav-link" data-scroll-target="#content-warnings">Content Warnings</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Policies</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -141,37 +163,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="policies" class="level3">
-<h3 class="anchored" data-anchor-id="policies">Policies</h3>
-<p>At the moment, the official rules are deliberately minimal, but they have important implications. First, if you don’t understand that “treat people with respect” means no sexism, racism, homophobia, transphobia or casteism and precludes abusive behavior and doxxing, then you don’t belong on this site. Second, you must use your real name in your profile and we strongly encourage using your full name as your display name. While there are plenty of good reasons for anonymity on the internet, for our purposes being able to link online reputation to real-world reputation is important.</p>
-</section>
-<section id="post-visibility" class="level3">
-<h3 class="anchored" data-anchor-id="post-visibility">Post Visibility</h3>
-<p>Public posts appear on the local timelines and federated timelines of sciences.social and all other mastodon instances that host your followers. Consider using Unlisted for posts you want your followers to see, but would prefer not to appear in public timelines. <strong>Using Unlisted for replies is strongly encouraged.</strong></p>
-<p>Posts expressing racism, homophobia and the like are not allowed with or without a content warning or with any level of visibility.</p>
-</section>
-<section id="sensitive-media" class="level3">
-<h3 class="anchored" data-anchor-id="sensitive-media">Sensitive Media</h3>
-<p>You must mark media as sensitive if it contains violence or sexual content. We also request that you mark media as sensitive if it might trigger common phobias including arachnophobia (fear of spiders) and Ophidiophobia (fear of snakes).</p>
-</section>
-<section id="getting-along" class="level3">
-<h3 class="anchored" data-anchor-id="getting-along">Getting along</h3>
-<p>Folks come here from different academic, ethnic and national cultures, so there are likely to be some mismatches in tone when we talk to one another. People might be more blunt than you are used to, or you might think someone is frustratingly obtuse when they are just trying to be polite. It’s best to presume that folks here are acting in good faith. Mastodon has good tools for filtering or blocking posts you don’t want to see. However, if you think someone is deliberately violating the rules or negatively affecting the community as a whole, you can report them as described below.</p>
-</section>
-<section id="reporting-bad-behavior" class="level3">
-<h3 class="anchored" data-anchor-id="reporting-bad-behavior">Reporting bad behavior</h3>
-<p>One of the great strengths of Mastodon is the ability to restrict access to bad actors. sciences.social already blocks posts from dozens of sites known to host trolls and nazis, but there’ll be other bad behavior. If you use the “Report” action on someone’s post the moderators can review it and take action to restrict that account. Reporting helps even for people who make their home on other servers.</p>
-</section>
-<section id="content-warnings" class="level3">
-<h3 class="anchored" data-anchor-id="content-warnings">Content Warnings</h3>
-<p>Content warnings are an important part of both the technical infrastructure and the culture of the Mastodon online community. They aren’t just used for “triggering” content but also are often treated as a “headline” that allows people to choose whether they want to read the whole post. Click the CW link on your post to set one.</p>
-<p>We strongly encourage the use of content warnings for posts that you think might be triggering or of limited interest, for example mentions of death or violence, and political debates centered on one country or locality.</p>
-<p>While expressions of racism, casteism, homophobia, and transphobia are off-limits, we do not require content warnings for posts <em>about</em> those topics and their effects on people, whether academic or otherwise. Use your own judgment about using content warnings on these topics.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1704096000000" data-listing-file-modified-sort="1704186523511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./blog/threads.html"> <img src="./assets/threads_logo.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/threads.html">
+<h3 class="no-anchor listing-title">
+Threads
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>We’re going to wait and see</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/threads.html">
+<div class="listing-date">
+Jan 1, 2024
+</div>
+<div class="listing-author">
+Mark Igra
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1672560000000" data-listing-file-modified-sort="1704156154360" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./blog/getting_started.html"> <img src="assets/dubois.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/getting_started.html">
+<h3 class="no-anchor listing-title">
+Getting Started
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>There’s no marketing team or algorithm to show you content on the social web, but there are some things you can do to make your experience better.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/getting_started.html">
+<div class="listing-date">
+Jan 1, 2023
+</div>
+<div class="listing-author">
+Mark Igra
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
