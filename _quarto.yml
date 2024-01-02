@@ -10,6 +10,8 @@ website:
       - about.qmd
       - href: status.qmd
         text: Status
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:
