@@ -10,10 +10,12 @@ format:
     resources: [mastodon-timeline.*, activity.js]
 
 ---
+<style>
+.column-margin {width: 400px}
+</style>
 
 ::: {.column-margin}
 <link rel="stylesheet" href="mastodon-timeline.css" />
-
 <div id="server-status" class="alert alert-info">Connecting...</div>
 **Server status updates**
 <div id="mt-error">
