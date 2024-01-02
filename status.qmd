@@ -1,5 +1,5 @@
 ---
-title: "sciences.social server status"
+title: "Server status"
 toc: false
 
 format:
@@ -7,20 +7,22 @@ format:
     grid: 
       margin-width: 400px
       body-width: 600px
-    resources: [mastodon-timeline.*, activity_plot.js]
+    resources: [mastodon-timeline.*, activity.js]
 
 ---
 
 ::: {.column-margin}
 <link rel="stylesheet" href="mastodon-timeline.css" />
-**Recent posts from admins:**
 
+<div id="server-status" class="alert alert-info">Connecting...</div>
+**Server status updates**
 <div id="mt-error">
 </div>
 <div class="mt-timeline"><div id="mt-body" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
 <script src="mastodon-timeline.js"></script>
+<script src="activity.js"></script>
 
-**Recent posts from masto.host**
+**Updates from masto.host**
 <div class="mt-timeline"><div id="mt-masto" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
 <script>
 window.addEventListener("load", () => {

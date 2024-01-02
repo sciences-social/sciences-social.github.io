@@ -25,12 +25,37 @@ async function getServerInfo() {
   if (res.ok) {
     const j = await(res.json())
     return j
+  } else {
+    return null;
   }
 }
 
-getServerInfo().then(serverInfo=>{
-  if (!serverInfo) {
+async function getPublicTimeline() {
+  const res = await fetch("https://sciences.social/api/v1/timelines/public?local=true&limit=1");
+  if (res.ok) {
+    const j = await res.json();
+    return j;
+  } else {
+    return null;
+  }
+}
+
+getPublicTimeline().then(timeline =>{
+  console.log(timeline);
+  const statusDiv = document.querySelector("#server-status")
+  if (!statusDiv) {
+    console.error("Couldn't find status div");
     return;
   }
-  const div = document.querySelector("#update")
-  div.innerText = `sciences.social had ${serverInfo.userInfo`})
+  console.log()
+  if (!timeline) {
+    statusDiv.innerText = "Could not connect with server. Check messages below for status, or email markigra (at) sciences.social if there are no status updates.";
+  } else {
+    lastPostTime = new Date(timeline[0].created_at)
+    const diff = new Date().getTime() - lastPostTime.getTime();
+    const minutes = Math.floor((diff/1000)/60);
+    const minuteText = minutes == 1 ? "1 minute" : (minutes < 1 ? "< 1 minute" : minutes + " minutes");
+    statusDiv.innerText = `Status OK. Last public post ${minuteText} ago.`;
+  }
+
+})
