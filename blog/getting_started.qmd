@@ -1,8 +1,9 @@
 ---
 title: "Getting Started"
+author: "Mark Igra"
+date: "2023-01-01"
+description: "There's no marketing team or algorithm to show you content on the social web, but there are some things you can do to make your experience better."
 ---
-
-# Recommendations for new users
 
 [sciences.social](https://sciences.social) is built on Mastodon, one of the 
 biggest platforms in the "fediverse". After you sign in you'll have accesss to 
@@ -40,7 +41,7 @@ Another polished app, with lots of customization options
 #### Android
 - **[Tusky for Android](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky)** A favorite of many Android users
 
-## 3. Start Posting and Boosting
+## 3. Make yourself known
 
-Introduce yourself with your first post, and include an [#introduction](/tags/introduction) hashtag. Post about whatever you want, and use hashtags to make finding your posts easier. If you see a post you like, boost it. There's no algorithm to amplify selected voices here so we rely on boosting to see what's interesting.
+Introduce yourself using a post with the [#introduction](/tags/introduction) hashtag. Post about whatever you want, and use hashtags to make finding your posts easier. If you see a post you like, boost it. There's no algorithm to amplify selected voices here so we rely on boosting to see what's interesting.
 
