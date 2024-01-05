@@ -74,7 +74,7 @@
     "href": "status.html",
     "title": "Server status",
     "section": "",
-    "text": "Connecting…\n\nsciences.social is hosted at masto.host, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. See below for updates from @mastohost from our admins .\nMasto host has a public page listing hardware status of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change."
+    "text": "Connecting…\n\nsciences.social is hosted at masto.host, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. See below for updates from @mastohost and our @sciences_social_admin account on mastodon.social .\nMasto.host has a public page listing hardware status of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change."
   },
   {
     "objectID": "blog.html",
