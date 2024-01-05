@@ -15,9 +15,10 @@ format:
 <div id="server-status" class="alert alert-info">Connecting...</div>
 **sciences.social** is hosted at [masto.host](https://masto.host), a cost-effective and reliable hosting
 service for Mastodon. Still, sometimes things go wrong, and when they do we can't use sciences.social to
-communicate with you. See below for updates from [@mastohost](https://mastodon.social/@mastohost) from our [admins](https://mastodon.social/@sciences_social_admin) .
+communicate with you. See below for updates from [@mastohost](https://mastodon.social/@mastohost) and our
+[@sciences_social_admin](https://mastodon.social/@sciences_social_admin) account on mastodon.social .
 
-Masto host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
+Masto.host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
 was running on app server 15 and database server 19, but that could change.
 
 <div id="mt-error">
