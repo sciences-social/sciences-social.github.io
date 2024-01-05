@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,10 +107,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    </div>
+    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -129,16 +128,12 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<style>
-.column-margin {width: 400px}
-</style>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<link rel="stylesheet" href="mastodon-timeline.css">
+<link rel="stylesheet" href="mastodon-timeline.css"> <!-- <div class-"alert alert-danger">Uncomment and replace this text to add banner.</div> -->
 <div id="server-status" class="alert alert-info">
 Connecting…
 </div>
-<strong>Server status updates</strong>
+<p><strong>sciences.social</strong> is hosted at <a href="https://masto.host">masto.host</a>, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. See below for updates from <a href="https://mastodon.social/@mastohost"><span class="citation" data-cites="mastohost">@mastohost</span></a> from our <a href="https://mastodon.social/@sciences_social_admin">admins</a> .</p>
+<p>Masto host has a public page listing <a href="https://status.masto.host/">hardware status</a> of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change.</p>
 <div id="mt-error">
 
 </div>
@@ -151,7 +146,6 @@ Connecting…
 </div>
 <script src="mastodon-timeline.js"></script>
 <script src="activity.js"></script>
-<strong>Updates from masto.host</strong>
 <div class="mt-timeline">
 <div id="mt-masto" class="mt-body" role="feed">
 <div class="loading-spinner">
@@ -206,8 +200,6 @@ window.addEventListener("load", () => {
   });
 });
 </script>
-</div></div><p><strong>sciences.social</strong> is hosted at <a href="https://masto.host">masto.host</a>, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. In that case, we’ll post status information on <a href="https://mastodon.social/@sciences_social_admin"><span class="citation" data-cites="sciences_social_admin">@sciences_social_admin</span><span class="citation" data-cites="mastodon.social">@mastodon.social</span></a> account, and you should see recent messages on this page. Messages from masto.host are also here.</p>
-<p>Masto host has a public page listing <a href="https://status.masto.host/">hardware status</a> of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change.</p>
 
 
 
