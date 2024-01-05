@@ -10,21 +10,22 @@ format:
     resources: [mastodon-timeline.*, activity.js]
 
 ---
-<style>
-.column-margin {width: 400px}
-</style>
-
-::: {.column-margin}
 <link rel="stylesheet" href="mastodon-timeline.css" />
+<!-- <div class-"alert alert-danger">Uncomment and replace this text to add banner.</div> -->
 <div id="server-status" class="alert alert-info">Connecting...</div>
-**Server status updates**
+**sciences.social** is hosted at [masto.host](https://masto.host), a cost-effective and reliable hosting
+service for Mastodon. Still, sometimes things go wrong, and when they do we can't use sciences.social to
+communicate with you. See below for updates from [@mastohost](https://mastodon.social/@mastohost) from our [admins](https://mastodon.social/@sciences_social_admin) .
+
+Masto host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
+was running on app server 15 and database server 19, but that could change.
+
 <div id="mt-error">
 </div>
 <div class="mt-timeline"><div id="mt-body" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
 <script src="mastodon-timeline.js"></script>
 <script src="activity.js"></script>
 
-**Updates from masto.host**
 <div class="mt-timeline"><div id="mt-masto" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
 <script>
 window.addEventListener("load", () => {
@@ -73,12 +74,4 @@ window.addEventListener("load", () => {
   });
 });
 </script>
-:::
 
-**sciences.social** is hosted at [masto.host](https://masto.host), a cost-effective and reliable hosting
-service for Mastodon. Still, sometimes things go wrong, and when they do we can't use sciences.social to
-communicate with you. In that case, we'll post status information on  [@sciences_social_admin@mastodon.social](https://mastodon.social/@sciences_social_admin) account, and you should
-see recent messages on this page. Messages from masto.host are also here.
-
-Masto host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
-was running on app server 15 and database server 19, but that could change.
