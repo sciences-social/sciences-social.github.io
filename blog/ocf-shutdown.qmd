@@ -3,6 +3,7 @@ title: "Open Collective Foundation Shutdown"
 author: "Mark Igra"
 date: "2024-03-01"
 description: "Our fiscal host, the Open Collective Foundation is shutting down."
+image: "/assets/ocf-logo.png"
 ---
 
 We got a mail from The Open Collective Foundation the other day saying [they are shutting down](https://docs.google.com/document/d/1odj1zfwqZgIyGOeBhv5QZxYHn422VOMdo32i3T3CPps/edit). 
