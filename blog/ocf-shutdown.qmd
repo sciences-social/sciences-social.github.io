@@ -38,5 +38,5 @@ including my \$50/month donation. That's not gonna get it done long term.
 
 [^1]: I had it down to \$149/month but we reached to 99.97% database capacity today.
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate on Ko-fi', '#8d28e0', 'Q5Q2GBAKW');kofiwidget2.draw();</script> 
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate on Ko-fi', '#277fe3', 'Q5Q2GBAKW');kofiwidget2.draw();</script> 
 
