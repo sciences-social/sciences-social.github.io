@@ -1,0 +1,41 @@
+---
+title: "Open Collective Foundation Shutdown"
+author: "Mark Igra"
+date: "2024-03-01"
+description: "Our fiscal host, the Open Collective Foundation is shutting down."
+---
+
+We got a mail from The Open Collective Foundation the other day saying [they are shutting down](https://docs.google.com/document/d/1odj1zfwqZgIyGOeBhv5QZxYHn422VOMdo32i3T3CPps/edit). 
+
+Sciences.social relies on donations to keep running. Since
+we are a not for profit (and unpaid) team, we signed up for "fiscal sponsorship" from
+the Open Collective Foundation, which took a small cut of donations, allowed
+donations to be tax deductible and supplied online services.
+
+Most importantly, they had tools supplied by the *for-profit* Open Collective company
+that allowed us to take donations and show all expenses
+[on our home page](https://opencollective.com/sciences-social). 
+
+We won't lose any money in the transition. At the moment our account shows a balance of \$904.09 and we
+have pending expenses of $642.55 so we will be able to spend the remaining \$262
+down before they shut down completely in September.
+
+If you have recurring donations running
+through OCF, March 15th should be the last date you are charged, but you can
+turn them off manually.
+
+- Go to [our page](https://opencollective.com/sciences-social)
+- Log in
+- Click your initials and choose "Profile"
+- Find the recurring contribution and click "Edit"
+- Click cancel
+
+Whether you do or do not currently give monthly, I now encourage you to 
+do so via our sciences.social Ko-Fi account. Our hosting
+expenses are \$200 per month[^1] and we took in < \$150 over the last month
+including my \$50/month donation. That's not gonna get it done long term.
+
+[^1]: I had it down to \$149/month but we reached to 99.97% database capacity today.
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate on Ko-fi', '#8d28e0', 'Q5Q2GBAKW');kofiwidget2.draw();</script> 
+

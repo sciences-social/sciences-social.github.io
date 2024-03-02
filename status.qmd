@@ -21,13 +21,21 @@ communicate with you. See below for updates from [@mastohost](https://mastodon.s
 Masto.host has a public page listing [hardware status](https://status.masto.host/) of all their services. At last check sciences.social
 was running on app server 15 and database server 19, but that could change.
 
+<div class="mt-container">
 <div id="mt-error">
 </div>
 <div class="mt-timeline"><div id="mt-body" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
 <script src="mastodon-timeline.js"></script>
 <script src="activity.js"></script>
+</div>
 
+<div class="mt-container">
+
+<p style="color:var(--content-text)">Posts from masto.host</p>
 <div class="mt-timeline"><div id="mt-masto" class="mt-body" role="feed"><div class="loading-spinner"></div></div></div>
+
+</div>
+
 <script>
 window.addEventListener("load", () => {
 

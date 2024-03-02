@@ -32,14 +32,8 @@ We are a non-profit organization run by unpaid volunteers - namely
 [Pratik Mhatre](https://sciences.social/deck/@Pratik),
 [Kristian Koerselman](https://sciences.social/deck/@economistatwork) and 
 [Simon Lindgren](https://sciences.social/deck/@simonlindgren). Still
-running the site costs money (about $150/month and rising) and we rely on donations to
-foot the bill. We accept U.S. tax-deductible donations through
-the [Open Collective Foundation](https://opencollective.com/sciences-social).
+running the site costs about \$200 a month and we rely on donations to
+foot the bill. We accept donations through Ko-Fi
 
 
-<a href="https://opencollective.com/sciences-social/donate" target="_blank">
-  <img src="https://opencollective.com/sciences-social/donate/button@2x.png?color=blue" width=300 />
-</a>
-
-
-
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate on Ko-fi', '#a328e0', 'Q5Q2GBAKW');kofiwidget2.draw();</script> 
