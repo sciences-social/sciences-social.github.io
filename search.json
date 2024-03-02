@@ -18,7 +18,7 @@
     "href": "index.html#donate-to-support-us",
     "title": "sciences.social",
     "section": "Donate to support us",
-    "text": "Donate to support us\nWe are a non-profit organization run by unpaid volunteers - namely Mark Igra, who founded the site, Pratik Mhatre, Kristian Koerselman and Simon Lindgren. Still running the site costs money (about $150/month and rising) and we rely on donations to foot the bill. We accept U.S. tax-deductible donations through the Open Collective Foundation."
+    "text": "Donate to support us\nWe are a non-profit organization run by unpaid volunteers - namely Mark Igra, who founded the site, Pratik Mhatre, Kristian Koerselman and Simon Lindgren. Still running the site costs about $200 a month and we rely on donations to foot the bill. We accept donations through Ko-Fi"
   },
   {
     "objectID": "policies.html",
@@ -26,6 +26,20 @@
     "title": "Policies",
     "section": "",
     "text": "Policies\nAt the moment, the official rules are deliberately minimal, but they have important implications. First, if you don’t understand that “treat people with respect” means no sexism, racism, homophobia, transphobia or casteism and precludes abusive behavior and doxxing, then you don’t belong on this site. Second, you must use your real name in your profile and we strongly encourage using your full name as your display name. While there are plenty of good reasons for anonymity on the internet, for our purposes being able to link online reputation to real-world reputation is important.\n\n\nPost Visibility\nPublic posts appear on the local timelines and federated timelines of sciences.social and all other mastodon instances that host your followers. Consider using Unlisted for posts you want your followers to see, but would prefer not to appear in public timelines. Using Unlisted for replies is strongly encouraged.\nPosts expressing racism, homophobia and the like are not allowed with or without a content warning or with any level of visibility.\n\n\nSensitive Media\nYou must mark media as sensitive if it contains violence or sexual content. We also request that you mark media as sensitive if it might trigger common phobias including arachnophobia (fear of spiders) and Ophidiophobia (fear of snakes).\n\n\nGetting along\nFolks come here from different academic, ethnic and national cultures, so there are likely to be some mismatches in tone when we talk to one another. People might be more blunt than you are used to, or you might think someone is frustratingly obtuse when they are just trying to be polite. It’s best to presume that folks here are acting in good faith. Mastodon has good tools for filtering or blocking posts you don’t want to see. However, if you think someone is deliberately violating the rules or negatively affecting the community as a whole, you can report them as described below.\n\n\nReporting bad behavior\nOne of the great strengths of Mastodon is the ability to restrict access to bad actors. sciences.social already blocks posts from dozens of sites known to host trolls and nazis, but there’ll be other bad behavior. If you use the “Report” action on someone’s post the moderators can review it and take action to restrict that account. Reporting helps even for people who make their home on other servers.\n\n\nContent Warnings\nContent warnings are an important part of both the technical infrastructure and the culture of the Mastodon online community. They aren’t just used for “triggering” content but also are often treated as a “headline” that allows people to choose whether they want to read the whole post. Click the CW link on your post to set one.\nWe strongly encourage the use of content warnings for posts that you think might be triggering or of limited interest, for example mentions of death or violence, and political debates centered on one country or locality.\nWhile expressions of racism, casteism, homophobia, and transphobia are off-limits, we do not require content warnings for posts about those topics and their effects on people, whether academic or otherwise. Use your own judgment about using content warnings on these topics."
+  },
+  {
+    "objectID": "blog/ocf-shutdown.html",
+    "href": "blog/ocf-shutdown.html",
+    "title": "Open Collective Foundation Shutdown",
+    "section": "",
+    "text": "We got a mail from The Open Collective Foundation the other day saying they are shutting down.\nSciences.social relies on donations to keep running. Since we are a not for profit (and unpaid) team, we signed up for “fiscal sponsorship” from the Open Collective Foundation, which took a small cut of donations, allowed donations to be tax deductible and supplied online services.\nMost importantly, they had tools supplied by the for-profit Open Collective company that allowed us to take donations and show all expenses on our home page.\nWe won’t lose any money in the transition. At the moment our account shows a balance of $904.09 and we have pending expenses of $642.55 so we will be able to spend the remaining $262 down before they shut down completely in September.\nIf you have recurring donations running through OCF, March 15th should be the last date you are charged, but you can turn them off manually.\nWhether you do or do not currently give monthly, I now encourage you to do so via our sciences.social Ko-Fi account. Our hosting expenses are $200 per month1 and we took in &lt; $150 over the last month including my $50/month donation. That’s not gonna get it done long term."
+  },
+  {
+    "objectID": "blog/ocf-shutdown.html#footnotes",
+    "href": "blog/ocf-shutdown.html#footnotes",
+    "title": "Open Collective Foundation Shutdown",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI had it down to $149/month but we reached to 99.97% database capacity today.↩︎"
   },
   {
     "objectID": "blog/getting_started.html",
@@ -74,13 +88,13 @@
     "href": "status.html",
     "title": "Server status",
     "section": "",
-    "text": "Connecting…\n\nsciences.social is hosted at masto.host, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. See below for updates from @mastohost and our @sciences_social_admin account on mastodon.social .\nMasto.host has a public page listing hardware status of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change."
+    "text": "Connecting…\n\nsciences.social is hosted at masto.host, a cost-effective and reliable hosting service for Mastodon. Still, sometimes things go wrong, and when they do we can’t use sciences.social to communicate with you. See below for updates from @mastohost and our @sciences_social_admin account on mastodon.social .\nMasto.host has a public page listing hardware status of all their services. At last check sciences.social was running on app server 15 and database server 19, but that could change.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPosts from masto.host"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Threads\n\n\n\n\n\nWe’re going to wait and see\n\n\n\n\n\n\nJan 2, 2024\n\n\nMark Igra\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started\n\n\n\n\n\nThere’s no marketing team or algorithm to show you content on the social web, but there are some things you can do to make your experience better.\n\n\n\n\n\n\nJan 1, 2023\n\n\nMark Igra\n\n\n\n\n\n\nNo matching items"
+    "text": "Open Collective Foundation Shutdown\n\n\n\n\n\nOur fiscal host, the Open Collective Foundation is shutting down.\n\n\n\n\n\n\nMar 1, 2024\n\n\nMark Igra\n\n\n\n\n\n\n  \n\n\n\n\nThreads\n\n\n\n\n\nWe’re going to wait and see\n\n\n\n\n\n\nJan 2, 2024\n\n\nMark Igra\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started\n\n\n\n\n\nThere’s no marketing team or algorithm to show you content on the social web, but there are some things you can do to make your experience better.\n\n\n\n\n\n\nJan 1, 2023\n\n\nMark Igra\n\n\n\n\n\n\nNo matching items"
   }
 ]
