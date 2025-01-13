@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/threads-suspended.html",
       "/blog/ocf-shutdown.html",
       "/blog/threads.html",
       "/blog/getting_started.html"

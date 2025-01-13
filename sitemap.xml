@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sciences-social.github.io/index.html</loc>
-    <lastmod>2024-03-02T06:17:03.429Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sciences-social.github.io/policies.html</loc>
-    <lastmod>2024-03-02T06:17:05.150Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sciences-social.github.io/blog/ocf-shutdown.html</loc>
-    <lastmod>2024-03-02T06:17:05.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sciences-social.github.io/blog/getting_started.html</loc>
-    <lastmod>2024-03-02T06:17:05.861Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sciences-social.github.io/blog/threads.html</loc>
-    <lastmod>2024-03-02T06:17:06.230Z</lastmod>
+    <loc>https://sciences-social.github.io/blog.html</loc>
+    <lastmod>2024-01-02T00:32:07.918Z</lastmod>
   </url>
   <url>
     <loc>https://sciences-social.github.io/about.html</loc>
-    <lastmod>2024-03-02T06:17:06.514Z</lastmod>
+    <lastmod>2024-01-01T22:28:05.709Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/blog/threads.html</loc>
+    <lastmod>2024-01-02T18:25:18.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/blog/ocf-shutdown.html</loc>
+    <lastmod>2024-03-02T01:41:46.379Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/index.html</loc>
+    <lastmod>2024-03-02T01:41:19.877Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/policies.html</loc>
+    <lastmod>2024-01-01T22:28:05.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/blog/getting_started.html</loc>
+    <lastmod>2024-01-02T00:42:34.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sciences-social.github.io/blog/threads-suspended.html</loc>
+    <lastmod>2025-01-13T07:05:17.631Z</lastmod>
   </url>
   <url>
     <loc>https://sciences-social.github.io/status.html</loc>
-    <lastmod>2024-03-02T06:17:07.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sciences-social.github.io/blog.html</loc>
-    <lastmod>2024-03-02T06:17:07.862Z</lastmod>
+    <lastmod>2024-03-02T01:20:40.205Z</lastmod>
   </url>
 </urlset>
